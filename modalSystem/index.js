@@ -1,8 +1,7 @@
-button = document.querySelectorAll("button");
-buttonClose = document.getElementById("close-modal")
+buttons = document.querySelectorAll("button");
 modal = document.getElementById("modal");
 
-button.forEach(function(btn) {
+buttons.forEach(function(btn) {
     btn.addEventListener("click", function (a) {
         const classes = a.currentTarget.classList;
         if(classes.contains("show-modal")) {
