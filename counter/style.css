@@ -1,0 +1,48 @@
+body {
+    background-color: #232323;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main {
+    width: 70%;
+    height: 65vh;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counter {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.buttons {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn {
+    color: white;
+    text-transform: capitalize uppercase;
+    padding: 10px 20px;
+    background-color: #232323;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    cursor: pointer;
+}

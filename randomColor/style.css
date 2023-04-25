@@ -1,0 +1,27 @@
+body {
+    background-color: #232323;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 70%;
+    height: 60vh;
+    border: 3px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.color-info {
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

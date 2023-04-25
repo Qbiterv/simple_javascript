@@ -1,0 +1,28 @@
+body {
+    background-color: #232323;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: rgb(154, 154, 154);
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 3px solid #5c5c5c;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+a:hover {
+    transition: .3s;
+    border: 3px solid #cbcbcb;
+    color: white;
+}

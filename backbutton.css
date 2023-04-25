@@ -1,0 +1,17 @@
+.back {
+    bottom: 5vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.back a {
+    transition: .3s;
+    color: rgb(154, 154, 154);
+    text-decoration: none;
+}
+
+.back a:hover {
+    transition: .3s;
+    color: white;
+}
