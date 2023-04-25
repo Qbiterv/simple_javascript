@@ -10,6 +10,7 @@ I wanted to use `forEach` and don't multiple `event listeners`. Counter was the 
 - Decrease
 - Clear
 - Increase
+
 which allows me to easily `add`, `reset` and `remove` numbers.
 
 ## Modal System
