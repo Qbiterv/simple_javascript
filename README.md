@@ -11,7 +11,7 @@ I wanted to use `forEach` and don't multiple `event listeners`. Counter was the 
 - Clear
 - Increase
 
-which allows me to easily `add`, `reset` and `remove` numbers.
+which allows me to easily `decrease`, `reset` and `increase` number.
 
 ## Modal System
 I create it to capture my skills and test myself in javascript.
